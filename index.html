@@ -170,108 +170,6 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-要被自己蠢哭了TAT" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/24/%E8%A6%81%E8%A2%AB%E8%87%AA%E5%B7%B1%E8%A0%A2%E5%93%AD%E4%BA%86TAT/">要被自己蠢哭了TAT</a>
-    </h1>
-  
-
-        
-        <a href="/2020/03/24/%E8%A6%81%E8%A2%AB%E8%87%AA%E5%B7%B1%E8%A0%A2%E5%93%AD%E4%BA%86TAT/" class="archive-article-date">
-  	<time datetime="2020-03-23T18:24:41.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-24</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>我，真的是都已经无力吐槽自己了，简直要被自己蠢哭了TAT</p>
-<p>上个星期，也就是我发上一篇的同一时间，学会了搞豆瓣读书评论的爬虫，于是兴冲冲的上网搜各种爬虫的代码，可能是由于python2和python3的版本问题？有些还是示例网站做了某些修改，导致代码不再适用，那些代码都要做些修改才能运行。我就改了2天爬虫的代码。。。</p>
-<p>于是改得头昏脑胀之后，我一个灵感驾到，R语言可不可以写爬虫程序啊？上网一搜？果然可以！于是兴冲冲的开始复制粘贴准备改代码了！结果？我每次运行显示的都是source（”…”，encode = UTF-8）</p>
-<p>哈？这是啥原因？于是上网搜，结果都没有提出这个问题的？我在想是不是我那天安装了mySQL导致的？那天安装完之后，VSCODE居然工作区清零了，于是又一个个自己把文件夹添加到工作区，是不是清零了，再加回来，设置也要重新搞？可是为什么python就没问题？</p>
-<p>然后又去折腾设置，各种设置都折腾了遍，它还是source。。。source个鬼啊，source，source，source个没完的😤</p>
-<p>看到有UTF8.。。难道是跟编码有关？我python爬虫的时候有一次出现乱码，所以加了一行改编码的代码，python。。。会影响R？不能啊。。。</p>
-<p>又看到说是languageservers是VSCODE使用R必须安装的，VSCODE没搜到😅我就去Rstudio搜，还真有，下载，勾选，关闭。VSCODE还是运行不了R。。。再打开Rstudio，发现勾选变没了？再勾选，关闭。。。。就这么折腾了N久，还是不好使，于是，我一气之下，Rstudio,R,acondana,全部被我卸载了！</p>
-<p>重头再来！</p>
-<p>由于acondana卸载了，python也要重新设置，很顺利的就搞定了。R就是死活不行。</p>
-<p>我。。。我已经不想再仔细描述我到底有多蠢了。</p>
-<p>反正结果就是，我昨天中午才琢磨明白，是的，是真的才“琢磨”明白，而不是突然“想起”：</p>
-<hr>
-<h1 id="R语言在VSCODE里运行，是需要在VSCODE下方的终端里，手动输入R，让终端运行R"><a href="#R语言在VSCODE里运行，是需要在VSCODE下方的终端里，手动输入R，让终端运行R" class="headerlink" title="R语言在VSCODE里运行，是需要在VSCODE下方的终端里，手动输入R，让终端运行R."></a><strong>R语言在VSCODE里运行，是需要在VSCODE下方的终端里，手动输入R，让终端运行R.</strong></h1><h1 id="而且运行，是按cmd-return，而不是点右上方的run-source图标（是的，我只是点图标，都没特么看字，如果仔细琢磨，没准就能早一点发现为什么每次都提示source那段报错了）"><a href="#而且运行，是按cmd-return，而不是点右上方的run-source图标（是的，我只是点图标，都没特么看字，如果仔细琢磨，没准就能早一点发现为什么每次都提示source那段报错了）" class="headerlink" title="而且运行，是按cmd + return，而不是点右上方的run source图标（是的，我只是点图标，都没特么看字，如果仔细琢磨，没准就能早一点发现为什么每次都提示source那段报错了）"></a><strong>而且运行，是按cmd + return，而不是点右上方的run source图标（是的，我只是点图标，都没特么看字，如果仔细琢磨，没准就能早一点发现为什么每次都提示source那段报错了）</strong></h1><hr>
-<p>是的，我到现在都不敢相信，是当初的我太聪明，还是这两天我突然蠢成🐷因为这了两天搜了好几天都没搜到如何解决，那么当初的我，是怎么知道要在终端里手动输入R，运行R语言的？我是怎么知道运行要按cmd + return而不是点右上角的？毕竟sublime的想要快速运行结果是用cmd + B，还有个运行被我设置快捷键为F1.</p>
-<p>是的，不知道是当初聪明还是现在蠢的前提就是。。。我，完全想不起来前阵子的事情了。。。用VSCODE估计也就是这月10号左右的事情，我现在完全想不起来那时候到底是怎么搞的了。。。</p>
-<p>好不容易R语言搞完了，紧接着Python又出问题。。。因为我把acondana卸载了，从官网下载的python3.8，是的，我从官网下载，而不是homebrew。。。</p>
-<p>然后运行的时候，有些函数就import不进来，因为我用的是3.8，所以就按照网上人家说的pip3来安装，结果安装成功了，还是import不进来？再一看报错信息。。。。pip3默认把插件安装到了3.7里，我特么真的想摔东西了！！！</p>
-<p>怎么办？我又开始琢磨要卸载python3.7，上网搜卸载办法，照着一查，好家伙，我电脑里居然有11个版本的python！！！然而教的那些命令，完全卸载不掉，只有从homebrew安装的那个可以用homebrew卸载掉，于是想到我刚从官网下载安装的3.8，悔得肠子都青了😭将来再升级，3.8可怎么卸啊😭</p>
-<p>以后的事情以后再想，先把眼前问题解决吧，我又去查如何下载pip3，教的命令，安装的时候说文件夹内已经有pip2？一看时间。。。刚刚安装的。。。我。。。可能是教的命令写的pip的缘故？</p>
-<p>又查了半天，最后发现一个好用的：</p>
-<blockquote>
-<h1 id="curl-https-bootstrap-pypa-io-get-pip-py-python3-8"><a href="#curl-https-bootstrap-pypa-io-get-pip-py-python3-8" class="headerlink" title="curl https://bootstrap.pypa.io/get-pip.py | python3.8"></a>curl <a href="https://bootstrap.pypa.io/get-pip.py" target="_blank" rel="noopener">https://bootstrap.pypa.io/get-pip.py</a> | python3.8</h1></blockquote>
-<p>get-pip.py是博主提供的python代码，真的是超长，据说也是官网有文档，可以去官网复制，博主教的最后写的是python3，我怕又安在了其他的地方，因为用命令查了下，卸载了3.7.7版本的，电脑里除了python3.8，还存在一个就叫python3的，我怕安装错了地方，又不能用。。。于是就改成了3.8</p>
-<p>于是，这回安装了，并且还很贴心的告诉我，给我安装了pip2， pip3， pip3.8一共三个😂</p>
-<p>所以我现在用pip3.8 install 。。。来安装函数😂</p>
-<p>挺好，真人性化，以后又搞别的版本的python的话，pip命令也不会搞混导致函数安错地方，多好！</p>
-<p>至此，安装完函数，总算我电脑里的python代码也都运行了😂</p>
-<p>行了，这回应该是真没啥问题了吧😂已经好几天没听课就搞VSCODE了，搞不明白心里难受，天天搞到凌晨四五点😂是的，真的搞好久，现在回想自己，可能连🐷的智商都不如😂</p>
-<p>收工，白天开始听课啦！</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">糜，迷，python，R</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/03/24/%E8%A6%81%E8%A2%AB%E8%87%AA%E5%B7%B1%E8%A0%A2%E5%93%AD%E4%BA%86TAT/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
     <article id="post-学累了" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -1042,6 +940,69 @@
 
 
   
+    <article id="post-Test" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/03/05/Test/">Test</a>
+    </h1>
+  
+
+        
+        <a href="/2020/03/05/Test/" class="archive-article-date">
+  	<time datetime="2020-03-05T08:16:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-05</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>本来都弄好了，悲催的我改完配置文件，本地预览时端口被占用，以为配置出了问题，全部都删掉了TAT</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/03/05/Test/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
   
     <nav id="page-nav">
       <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
@@ -1144,10 +1105,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">迷</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">糜，迷，python，R</a>
               </li>
             
             <div class="clearfix"></div>
